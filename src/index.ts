@@ -1,6 +1,5 @@
-import "@/style/normalize.css";
+import "@/style/global.css";
 
-import { PackCircle } from "@/pack/index";
-import data from "@/pack/data";
+import { initRouter } from "@/navigation/index";
 
-new PackCircle(data);
+initRouter();

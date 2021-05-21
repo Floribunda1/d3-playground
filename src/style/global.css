@@ -15,3 +15,9 @@ body,
   justify-content: center;
   align-items: center;
 }
+
+.reset-button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
