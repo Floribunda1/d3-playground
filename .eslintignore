@@ -1,0 +1,3 @@
+build/*
+commitlint.config.js
+*.css

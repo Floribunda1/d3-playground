@@ -1,0 +1,42 @@
+{
+  "name": "d3-play",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "webpack build --config build/prod.config.js",
+    "dev": "webpack serve --config build/dev.config.js",
+    "postinstall": "husky install",
+    "lint": "eslint --fix"
+  },
+  "dependencies": {
+    "core-js": "latest",
+    "d3": "^6.7.0",
+    "regenerator-runtime": "latest"
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "@types/d3": "^6.5.0",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "babel-loader": "latest",
+    "clean-webpack-plugin": "latest",
+    "css-loader": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-import": "latest",
+    "html-webpack-plugin": "latest",
+    "husky": "latest",
+    "lint-staged": "latest",
+    "mini-css-extract-plugin": "latest",
+    "ts-loader": "latest",
+    "typescript": "latest",
+    "webpack": "latest",
+    "webpack-bundle-analyzer": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest",
+    "webpack-merge": "latest",
+    "webpackbar": "latest"
+  }
+}
